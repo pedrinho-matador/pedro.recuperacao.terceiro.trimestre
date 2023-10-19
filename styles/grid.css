@@ -1,0 +1,43 @@
+.Imagem{
+    width: 80px!important;
+    height: 60px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+
+
+
+ @media screen and (min-width: 1024px) {
+
+ .Imagem{
+    border-top: 10px solid rgb(133, 98, 33);
+    border-left: 10px solid rgb(133, 98, 33);
+    border-right: 10px solid rgb(133, 98, 33);
+    border-bottom: 10px solid rgb(133, 98, 33);
+    width: 200px !important;
+    height: 200px !important;
+    }
+}
+
+.logo_imagem{
+    width: 100px;
+    height: 100px;
+}
+
+.imagem_class{
+width: 100px;
+height: 90px;
+}
+
+
+.titulo{
+    font-size: 30px;
+    color: rgb(204, 196, 83);
+    margin-bottom: 7px;
+    text-align: center;
+}
